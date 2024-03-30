@@ -1,3 +1,4 @@
-# __init__.py
+"""python-package-template package initialization"""
+
 from .main import main
-from src.classname import Classname
+from .version import __version__ as version
