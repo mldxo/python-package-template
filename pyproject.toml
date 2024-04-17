@@ -5,7 +5,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-package-template"
+name = "python-package-template-mldxo"
 version = "0.1.0"
 authors = [
   { name="mldxo", email="miloszmaculewicz@gmail.com" },
