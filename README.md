@@ -1,5 +1,7 @@
 # Python Package Template
 Template of Python project wrapped as package that can be easily uploaded to PyPi
+- [Github](https://github.com/mldxo/python-package-template)
+- [PyPi](https://pypi.org/project/python-package-template-mldxo)
 
 ## Getting Started
 To use this template click "Use this template" and create a new repository or open the template in a codespace [or use this template here](https://github.com/new?template_name=python-package-template&template_owner=mldxo)
