@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-package-template"
+version = "0.1.0"
+authors = [
+  { name="mldxo", email="miloszmaculewicz@gmail.com" },
+]
+description = "Python Package Template Description"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+python-package-template = "python_package_template:main"
+
+[project.urls]
+Homepage = "https://github.com/mldxo/python-package-template"
+Issues = "https://github.com/mldxo/python-package-template/issues"
+
+[tool.setuptools.packages.find]
+where = [""]
