@@ -6,7 +6,6 @@ To use this template click "Use this template" and create a new repository or op
 
 ## Usage
 Create virtual environment and install dependencies:
-
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -14,27 +13,23 @@ pip install -r requirements.txt
 ```
 
 After that you would adapt the code and continue when the project is ready to be published. Build the package using:
-
 ```bash
 python setup.py sdist bdist_wheel
 ```
 
 Test compiled package locally using:
-
 ```bash
 pip install dist/package-xx.whl
 ```
 
 Before publishing to PyPi create account and get API key.
 Save API key in your session using:
-
 ```bash
 export TWINE_USERNAME=__token__
 export TWINE_PASSWORD=$actual_token
 ```
 
 Publish the package to PyPi:
-
 ```bash
 twine upload dist/*
 ```
